@@ -1,0 +1,32 @@
+:root {
+    --border: 10px;
+    --primary-color: #265BF5;
+    --color-acent: #F1117E;
+    --color-secondary: #99a3ae;
+    --color-gray: #555;
+    --text-primary: #070707;
+}
+
+body {
+    margin: 0;
+    background-color: #f5f5f5;
+    color: var(--text-primary);
+    font-family: "Open Sans", sans-serif;
+}
+
+.text-gray {
+    color: var(--color-gray);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.no-link {
+    text-decoration: none;
+}
